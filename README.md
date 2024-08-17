@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Salihu Aliyu Muhammad
-- 👀 I’m aback end developer 
+- 👀 I’m a back end developer 
 - 🌱 I’m currently learning CSS and JavaScript 
 - 💞️ I’m looking to collaborate on ...html css projects just hit me
 - 📫 How to reach me ...@banbalistic @meeundoo@gmail.com
