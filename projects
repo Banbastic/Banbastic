@@ -1,3 +1,75 @@
 <!DOCTYPE html>
-<!html lang="en">
-meta name="viewport" content="width=device-width, scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Bank of Nigeria</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, nav, main, aside, footer {
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        header {
+            background-color: #0047ab;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8f8f8;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .main-content {
+            display: flex;
+            flex: 1;
+        }
+        main {
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+        }
+        footer {
+            background-color: #0047ab;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Central Bank of Nigeria</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <main>
+                <h2>Welcome to the Central Bank of Nigeria</h2>
+                <p>Here you can find all the information about our services and policies.</p>
+            </main>
+            <aside>
+                <h3>Latest News</h3>
+                <p>Stay updated with the latest news.</p>
+            </aside>
+        </div>
+        <footer>
+            <p>&copy; 2024 Central Bank of Nigeria. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
