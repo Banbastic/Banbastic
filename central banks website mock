@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Bank of Nigeria</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, nav, main, aside, footer {
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        header {
+            background-color: #0047ab;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8f8f8;
+        }
+        footer {
+            background-color: #0047ab;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-rows: auto auto 1fr auto;
+            grid-template-columns: 1fr 3fr;
+            grid-template-areas:
+                "header header"
+                "nav nav"
+                "aside main"
+                "footer footer";
+            min-height: 100vh;
+        }
+        header {
+            grid-area: header;
+        }
+        nav {
+            grid-area: nav;
+        }
+        main {
+            grid-area: main;
+        }
+        aside {
+            grid-area: aside;
+        }
+        footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Central Bank of Nigeria</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <aside>
+            <h3>Latest News</h3>
+            <p>Stay updated with the latest news.</p>
+        </aside>
+        <main>
+            <h2>Welcome to the Central Bank of Nigeria</h2>
+            <p>Here you can find all the information about our services and policies.</p>
+        </main>
+        <footer>
+            <p>&copy; 2024 Central Bank of Nigeria. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
