@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grant Application Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group textarea {
+            height: 100px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grant Application Form</h1>
+    <form>
+        <div class="form-group">
+            <label for="applicantName">Applicant Name</label>
+            <input type="text" id="applicantName" name="applicantName" required>
+        </div>
+        <div class="form-group">
+            <label for="applicantEmail">Email Address</label>
+            <input type="email" id="applicantEmail" name="applicantEmail" required>
+        </div>
+        <div class="form-group">
+            <label for="projectTitle">Project Title</label>
+            <input type="text" id="projectTitle" name="projectTitle" required>
+        </div>
+        <div class="form-group">
+            <label for="projectDescription">Project Description</label>
+            <textarea id="projectDescription" name="projectDescription" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="projectBudget">Project Budget</label>
+            <input type="number" id="projectBudget" name="projectBudget" required>
+        </div>
+        <div class="form-group">
+            <label for="projectImpact">Expected Impact</label>
+            <textarea id="projectImpact" name="projectImpact" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit Application</button>
+    </form>
+</body>
+</html>
