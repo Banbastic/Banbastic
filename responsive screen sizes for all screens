@@ -1,0 +1,22 @@
+/* Mobile-first styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+/* Larger screens */
+@media (min-width: 600px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        max-width: 60%;
+    }
+}
